@@ -1,22 +1,19 @@
 {
-  "name": "com.actioncode.[packagename]",
-  "displayName": "ActionCode-[PackageName]",
+  "name": "com.actioncode.screen-fade-system",
+  "displayName": "ActionCode-Screen Fade System",
   "version": "0.1.0",
   "unity": "6000.1",
-  "description": "This package contains [...].",
-  "keywords": [
-    "",
-    ""
-  ],
+  "description": "This package contains Screen Fades for Unity Projects.",
+  "keywords": [ "Screen" ],
   "dependencies": {},
   "license": "MIT",
-  "homepage": "https://github.com/HyagoOliveira/[PACKAGE]#readme",
+  "homepage": "https://github.com/HyagoOliveira/ScreenFadeSystem#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyagoOliveira/[PACKAGE].git"
+    "url": "https://github.com/HyagoOliveira/ScreenFadeSystem.git"
   },
-  "documentationUrl": "https://github.com/HyagoOliveira/[PACKAGE]#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/[PACKAGE]/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/HyagoOliveira/ScreenFadeSystem#readme",
+  "changelogUrl": "https://github.com/HyagoOliveira/ScreenFadeSystem/blob/main/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"
