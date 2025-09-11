@@ -1,0 +1,16 @@
+{
+    "name": "ActionCode.ScreenFadeSystem",
+    "rootNamespace": "ActionCode.ScreenFadeSystem",
+    "references": [
+        "GUID:2055e4f86e8d13344b9d599457150310"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
