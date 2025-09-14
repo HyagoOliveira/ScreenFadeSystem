@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace ActionCode.ScreenFadeSystem
@@ -34,6 +35,18 @@ namespace ActionCode.ScreenFadeSystem
             Object.DontDestroyOnLoad(instance);
 
             return instance.GetComponent<AbstractScreenFader>();
+        }
+
+        /// <summary>
+        /// Tries to get the first Screen Fader available.
+        /// </summary>
+        /// <param name="fader">An AbstractScreenFader implementation instance.</param>
+        /// <returns>Whether a fader was found.</returns>
+        public static bool TryGetFirst(out AbstractScreenFader fader)
+        {
+            fader = null;
+            var instance = instances.FirstOrDefault().Value;
+            return instance && instance.TryGetComponent(out fader);
         }
     }
 }
