@@ -4,8 +4,6 @@
 * Unity minimum version: **6000.1**
 * Current version: **1.0.0**
 * License: **MIT**
-* Dependencies:
-    - [com.actioncode.awaitable-system : 1.0.0](https://github.com/HyagoOliveira/AwaitableSystem/tree/1.0.0)
 
 ## Summary
 
