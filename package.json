@@ -1,14 +1,14 @@
 {
   "name": "com.actioncode.screen-fade-system",
   "displayName": "ActionCode-Screen Fade System",
-  "version": "1.0.0",
-  "unity": "6000.1",
+  "version": "1.0.1",
+  "unity": "6000.3",
   "description": "This package contains Screen Fades for Unity Projects.",
   "keywords": [
     "Screen"
   ],
   "dependencies": {
-    "com.actioncode.awaitable-system": "1.0.0"
+    "com.actioncode.awaitable-system": "1.3.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/HyagoOliveira/ScreenFadeSystem#readme",
