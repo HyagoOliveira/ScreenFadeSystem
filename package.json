@@ -1,7 +1,7 @@
 {
   "name": "com.actioncode.screen-fade-system",
   "displayName": "ActionCode-Screen Fade System",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "unity": "6000.3",
   "description": "This package contains Screen Fades for Unity Projects.",
   "keywords": [
