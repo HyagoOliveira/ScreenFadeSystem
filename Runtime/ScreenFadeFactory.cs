@@ -1,6 +1,6 @@
-using UnityEngine;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 namespace ActionCode.ScreenFadeSystem
 {
@@ -9,7 +9,7 @@ namespace ActionCode.ScreenFadeSystem
     /// </summary>
     public static class ScreenFadeFactory
     {
-        private readonly static Dictionary<int, GameObject> instances = new();
+        private readonly static Dictionary<EntityId, GameObject> instances = new();
 
         /// <summary>
         /// Creates or returns an <see cref="AbstractScreenFader"/> implementation.
@@ -20,7 +20,7 @@ namespace ActionCode.ScreenFadeSystem
         {
             if (faderPrefab == null) return null;
 
-            var prefabId = faderPrefab.gameObject.GetInstanceID();
+            var prefabId = faderPrefab.gameObject.GetEntityId();
             var hasInstance = instances.TryGetValue(prefabId, out GameObject prefab) && prefab != null;
             if (hasInstance) return prefab.GetComponent<AbstractScreenFader>();
 
